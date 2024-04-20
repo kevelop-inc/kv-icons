@@ -4,7 +4,7 @@ import './App.css';
 function App() {
   return (
     <>
-      <ArrowDown size={13} color="red" />
+      <ArrowDown classes="text-red size-10" />
     </>
   );
 }
