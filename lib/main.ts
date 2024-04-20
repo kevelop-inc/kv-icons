@@ -1,1 +1,11 @@
-export { ArrowDown } from './ArrowDown';
+export { Arrow } from "./Arrow";
+export { Chevron } from "./Chevron";
+export { Close } from "./Close";
+export { Discord } from "./Discord";
+export { Home } from "./Home";
+export { Instagram } from "./Instagram";
+export { Play } from "./Play";
+export { QuotationMark } from "./QuotationMark";
+export { Star } from "./Star";
+export { Tick } from "./Tick";
+export { X } from "./X";

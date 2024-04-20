@@ -7,13 +7,6 @@ settings:
 importers:
 
   .:
-    dependencies:
-      react:
-        specifier: ^18.2.0
-        version: 18.2.0
-      react-dom:
-        specifier: ^18.2.0
-        version: 18.2.0(react@18.2.0)
     devDependencies:
       '@types/node':
         specifier: ^20.12.7
@@ -45,6 +38,12 @@ importers:
       glob:
         specifier: ^10.3.12
         version: 10.3.12
+      react:
+        specifier: ^18.2.0
+        version: 18.2.0
+      react-dom:
+        specifier: ^18.2.0
+        version: 18.2.0(react@18.2.0)
       typescript:
         specifier: ^5.2.2
         version: 5.4.5
