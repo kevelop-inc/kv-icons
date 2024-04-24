@@ -1,20 +1,20 @@
-import { FC } from "react";
+import { FC } from 'react';
 
 interface Props {
-  classes?: string;
+  className?: string;
 }
 
 export const Close: FC<Props> = (props) => {
-  const { classes } = props;
+  const { className } = props;
 
   return (
     <svg
-      className={`${classes}`}
+      className={`${className}`}
       viewBox="0 0 8 8"
       fill="inherit"
       xmlns="http://www.w3.org/2000/svg"
     >
-      <g clip-path="url(#clip0_396_853)">
+      <g clipPath="url(#clip0_396_853)">
         <path
           d="M0.666748 7.33317L7.33342 0.666504"
           strokeLinecap="round"
