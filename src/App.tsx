@@ -2,6 +2,7 @@ import {
   Arrow,
   Chevron,
   Close,
+  CloseCircle,
   Discord,
   Home,
   Instagram,
@@ -11,7 +12,6 @@ import {
   Tick,
   X,
 } from '../';
-import CloseCircle from '../lib/CloseCircle';
 import './App.css';
 
 function App() {
