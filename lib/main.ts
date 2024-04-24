@@ -5,6 +5,7 @@ export { CloseCircle } from './CloseCircle';
 export { Discord } from './Discord';
 export { Home } from './Home';
 export { Instagram } from './Instagram';
+export { LoaderCircle } from './LoaderCircle';
 export { Play } from './Play';
 export { QuotationMark } from './QuotationMark';
 export { Star } from './Star';

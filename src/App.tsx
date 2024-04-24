@@ -6,6 +6,7 @@ import {
   Discord,
   Home,
   Instagram,
+  LoaderCircle,
   Play,
   QuotationMark,
   Star,
@@ -29,6 +30,7 @@ function App() {
       <Tick className="stroke-red size-10" />
       <X className="fill-red size-10" />
       <CloseCircle className="fill-red size-10" />
+      <LoaderCircle className="stroke-red size-10" />
     </>
   );
 }
