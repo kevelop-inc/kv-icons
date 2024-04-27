@@ -12,12 +12,14 @@ import {
   Star,
   Tick,
   X,
-} from '../';
-import './App.css';
+} from "../";
+import { StockArrow } from "../lib/StockArrow";
+import "./App.css";
 
 function App() {
   return (
     <>
+      <StockArrow className="fill-red size-10 rotate-90" />
       <Arrow className="fill-red size-10 rotate-90" />
       <Chevron className="stroke-red size-10" />
       <Close className="stroke-red size-10" />
