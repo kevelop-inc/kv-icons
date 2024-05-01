@@ -12,9 +12,9 @@ import {
   Star,
   Tick,
   X,
-} from "../";
-import { StockArrow } from "../lib/StockArrow";
-import "./App.css";
+} from '../';
+import { StockArrow } from '../lib/StockArrow';
+import './App.css';
 
 function App() {
   return (
