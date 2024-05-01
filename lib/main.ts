@@ -6,6 +6,8 @@ export { Close } from './Close';
 export { CloseCircle } from './CloseCircle';
 export { Discord } from './Discord';
 export { DotsHorizontal } from './DotsHorizontal';
+export { Flash } from './Flash';
+export { FlashStash } from './FlashStash';
 export { Home } from './Home';
 export { Instagram } from './Instagram';
 export { LoaderCircle } from './LoaderCircle';
