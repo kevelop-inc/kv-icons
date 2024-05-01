@@ -1,9 +1,11 @@
 export { Arrow } from './Arrow';
-export { ArrowLeft } from './ArrowLeft';
+export { Check } from './Check';
 export { Chevron } from './Chevron';
+export { Circle } from './Circle';
 export { Close } from './Close';
 export { CloseCircle } from './CloseCircle';
 export { Discord } from './Discord';
+export { DotsHorizontal } from './DotsHorizontal';
 export { Home } from './Home';
 export { Instagram } from './Instagram';
 export { LoaderCircle } from './LoaderCircle';

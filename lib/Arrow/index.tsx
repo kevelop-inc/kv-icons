@@ -1,20 +1,36 @@
-import { FC } from 'react';
+import { forwardRef } from 'react';
+import { IconDirection, IconProps } from '../icon-props';
+import { getRotation } from '../utils';
 
-interface Props {
-  className?: string;
+interface Props extends IconProps {
+  size?: number;
+  direction?: IconDirection;
 }
 
-export const Arrow: FC<Props> = (props) => {
-  const { className } = props;
-
-  return (
-    <svg
-      className={`${className}`}
-      viewBox="0 0 14 14"
-      fill="none"
-      xmlns="http://www.w3.org/2000/svg"
-    >
-      <path d="M7.5835 2.33333C7.5835 2.01117 7.32234 1.75 7.00016 1.75C6.67799 1.75 6.41683 2.01117 6.41683 2.33333V10.2583L3.3293 7.17086C3.1015 6.94307 2.73215 6.94307 2.50435 7.17086C2.27654 7.39865 2.27654 7.76802 2.50435 7.99581L6.58769 12.0791C6.81548 12.3069 7.18485 12.3069 7.41264 12.0791L11.496 7.99581C11.7238 7.76802 11.7238 7.39865 11.496 7.17086C11.2682 6.94307 10.8988 6.94307 10.671 7.17086L7.5835 10.2583V2.33333Z" />
-    </svg>
-  );
-};
+export const Arrow = forwardRef<SVGSVGElement, Props>(
+  (
+    { color = 'currentColor', direction = 'right', size = 24, ...props },
+    ref
+  ) => {
+    return (
+      <svg
+        ref={ref}
+        xmlns="http://www.w3.org/2000/svg"
+        width={size}
+        height={size}
+        style={{
+          transform: `rotate(${getRotation(direction)}deg)`,
+          ...props.style,
+        }}
+        viewBox="0 0 16 16"
+        fill="none"
+        {...props}
+      >
+        <path
+          d="M9.31999 3.5465L7.17999 5.6865L5.86666 6.99317C5.31333 7.5465 5.31333 8.4465 5.86666 8.99983L9.31999 12.4532C9.77333 12.9065 10.5467 12.5798 10.5467 11.9465V8.2065V4.05317C10.5467 3.41317 9.77333 3.09317 9.31999 3.5465Z"
+          fill={color}
+        />
+      </svg>
+    );
+  }
+);
