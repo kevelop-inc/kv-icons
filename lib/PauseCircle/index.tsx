@@ -1,12 +1,12 @@
-import { forwardRef } from "react";
-import { IconProps } from "../icon-props";
+import { forwardRef } from 'react';
+import { IconProps } from '../icon-props';
 
 interface Props extends IconProps {
   size?: number;
 }
 
-export const PlayCircle = forwardRef<SVGSVGElement, Props>(
-  ({ color = "currentColor", size = 24, ...props }, ref) => {
+export const PauseCircle = forwardRef<SVGSVGElement, Props>(
+  ({ color = 'currentColor', size = 24, ...props }, ref) => {
     return (
       <svg
         ref={ref}
