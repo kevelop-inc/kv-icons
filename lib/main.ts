@@ -13,6 +13,7 @@ export { FlashStash } from './FlashStash';
 export { Home } from './Home';
 export { Instagram } from './Instagram';
 export { LoaderCircle } from './LoaderCircle';
+export { PauseCircle } from './PauseCircle';
 export { Play } from './Play';
 export { PlayCircle } from './PlayCircle';
 export { QuotationMark } from './QuotationMark';
