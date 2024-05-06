@@ -5,7 +5,7 @@ interface Props extends IconProps {
   size?: number;
 }
 
-export const PlayCircle = forwardRef<SVGSVGElement, Props>(
+export const PauseCircle = forwardRef<SVGSVGElement, Props>(
   ({ color = "currentColor", size = 24, ...props }, ref) => {
     return (
       <svg
