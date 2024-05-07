@@ -28,3 +28,4 @@ export { Chart } from "./Chart";
 export { User } from "./User";
 export { Crown } from "./Crown";
 export { LogOut } from "./LogOut";
+export { Settings } from "./Settings";
