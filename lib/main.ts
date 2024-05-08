@@ -25,3 +25,7 @@ export { X } from "./X";
 export { Message } from "./Message";
 export { Activity } from "./Activity";
 export { Chart } from "./Chart";
+export { User } from "./User";
+export { Crown } from "./Crown";
+export { LogOut } from "./LogOut";
+export { Settings } from "./Settings";
