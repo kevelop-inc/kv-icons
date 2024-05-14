@@ -29,3 +29,6 @@ export { User } from "./User";
 export { Crown } from "./Crown";
 export { LogOut } from "./LogOut";
 export { Settings } from "./Settings";
+export { DoubleChevron } from "./DoubleChevron";
+export { UserOctagon } from "./UserOctagon";
+export { Link } from "./Link";
