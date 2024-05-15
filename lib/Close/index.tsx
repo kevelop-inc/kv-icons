@@ -1,31 +1,27 @@
-import { FC } from 'react';
+import { forwardRef } from 'react';
+import { IconProps } from '../icon-props';
 
-interface Props {
-  className?: string;
+interface Props extends IconProps {
+  size?: number;
 }
 
-export const Close: FC<Props> = (props) => {
-  const { className } = props;
-
-  return (
-    <svg
-      className={`${className}`}
-      viewBox="0 0 8 8"
-      fill="inherit"
-      xmlns="http://www.w3.org/2000/svg"
-    >
-      <g clipPath="url(#clip0_396_853)">
+export const Close = forwardRef<SVGSVGElement, Props>(
+  ({ color = 'currentColor', size = 24, ...props }, ref) => {
+    return (
+      <svg
+        ref={ref}
+        width={size}
+        height={size}
+        viewBox="0 0 24 24"
+        fill="none"
+        xmlns="http://www.w3.org/2000/svg"
+        {...props}
+      >
         <path
-          d="M0.666748 7.33317L7.33342 0.666504"
-          strokeLinecap="round"
-          strokeLinejoin="round"
+          d="M5.64645 17.6464C5.45118 17.8417 5.45118 18.1583 5.64645 18.3536C5.84171 18.5488 6.15829 18.5488 6.35355 18.3536L5.64645 17.6464ZM18.3536 6.35355C18.5488 6.15829 18.5488 5.84171 18.3536 5.64645C18.1583 5.45118 17.8417 5.45118 17.6464 5.64645L18.3536 6.35355ZM6.35355 5.64645C6.15829 5.45118 5.84171 5.45118 5.64645 5.64645C5.45118 5.84171 5.45118 6.15829 5.64645 6.35355L6.35355 5.64645ZM17.6464 18.3536C17.8417 18.5488 18.1583 18.5488 18.3536 18.3536C18.5488 18.1583 18.5488 17.8417 18.3536 17.6464L17.6464 18.3536ZM6.35355 18.3536L18.3536 6.35355L17.6464 5.64645L5.64645 17.6464L6.35355 18.3536ZM5.64645 6.35355L17.6464 18.3536L18.3536 17.6464L6.35355 5.64645L5.64645 6.35355Z"
+          fill={color}
         />
-        <path
-          d="M7.33342 7.33317L0.666748 0.666504"
-          strokeLinecap="round"
-          strokeLinejoin="round"
-        />
-      </g>
-    </svg>
-  );
-};
+      </svg>
+    );
+  }
+);
