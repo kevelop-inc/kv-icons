@@ -14,6 +14,7 @@ export { DotsHorizontal } from './DotsHorizontal';
 export { DoubleChevron } from './DoubleChevron';
 export { Edit } from './Edit';
 export { ExclamationCircle } from './ExclamationCircle';
+export { Eye } from './Eye';
 export { Flash } from './Flash';
 export { FlashStash } from './FlashStash';
 export { Home } from './Home';
