@@ -18,9 +18,9 @@ import {
   StockArrow,
   Tick,
   X,
-} from '../';
-import { FlashStash } from '../lib/FlashStash';
-import './App.css';
+} from "../";
+import { FlashStash } from "../lib/FlashStash";
+import "./App.css";
 
 function App() {
   return (
@@ -33,7 +33,7 @@ function App() {
       <Discord className="fill-red size-10" />
       <Flash className="fill-red size-10" />
       <FlashStash className="fill-red size-10" />
-      <Home className="stroke-red size-10 stroke-[8px]" />
+      <Home color={"red"} size={40} />
       <Instagram className="stroke-red size-10" />
       <Play className="fill-red size-10" />
       <QuotationMark className="stroke-red size-10 stroke-2 fill-cyan" />
