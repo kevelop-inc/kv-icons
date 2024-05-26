@@ -1,6 +1,7 @@
 export { Activity } from './Activity';
 export { AddCircle } from './AddCircle';
 export { Arrow } from './Arrow';
+export { AwardOutlined } from './AwardOutlined';
 export { Chart } from './Chart';
 export { Check } from './Check';
 export { CheckCircle } from './CheckCircle';
